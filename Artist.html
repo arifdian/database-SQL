@@ -1,0 +1,24 @@
+<html>
+<head> ARTIST </head>
+<br>
+<br>
+<body>
+<form action="insertartist.php" method="post">
+First Name:<input type="text" name="firstname" required><br>
+Last Name:<input type="text" name="lastname" required><br>
+Date of Birth: <input type="text" name="dob"><br>
+gender:  
+<select name="gender">
+	<option value="male">M</option>
+    <option value="female">F</option>
+</select>
+<br>
+
+<input type="submit" value="insert artist">
+<br>
+<br>
+
+<input type="submit" value="select artist" onclick="window.location.href='selectartist.php'" >
+
+</body>
+</html>
